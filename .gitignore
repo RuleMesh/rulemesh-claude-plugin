@@ -1,3 +1,6 @@
 .DS_Store
 *.log
 .env
+
+# Internal submission prep — never publish to the public repo
+SUBMISSION.md
