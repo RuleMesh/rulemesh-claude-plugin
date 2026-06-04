@@ -1,6 +1,10 @@
 # Marketplace assets
 
-Drop the listing icon here as `icon.png` (and `icon.svg` if available).
+Listing icon (the blue mesh mark, no wordmark), sourced from the brand repo `Design/assets`:
+
+- `icon.svg` — vector mark, preferred for the Connectors Directory
+- `icon.png` — 256×256
+- `icon-512.png` — 512×512
 
 Requirements for the Anthropic Connectors Directory and the plugin listing:
 
