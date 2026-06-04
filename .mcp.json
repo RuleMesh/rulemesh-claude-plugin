@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rulemesh": {
+      "type": "http",
+      "url": "https://api.rulemesh.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rulemesh",
+  "description": "Official RuleMesh plugins. Engineered Compliance Infrastructure for engineers and AI agents.",
+  "owner": {
+    "name": "RuleMesh",
+    "email": "support@rulemesh.com",
+    "url": "https://rulemesh.com"
+  },
+  "plugins": [
+    {
+      "name": "rulemesh-compliance",
+      "displayName": "RuleMesh Compliance",
+      "description": "Engineered rules for GDPR, in your editor: what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done. Connects to the hosted RuleMesh server over OAuth.",
+      "author": {
+        "name": "RuleMesh",
+        "email": "support@rulemesh.com"
+      },
+      "category": "security",
+      "source": "./",
+      "homepage": "https://rulemesh.com",
+      "version": "1.0.0",
+      "keywords": [
+        "compliance",
+        "regulatory",
+        "gdpr",
+        "security",
+        "mcp",
+        "evidence",
+        "controls",
+        "audit"
+      ]
+    }
+  ]
+}

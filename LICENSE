@@ -1,0 +1,14 @@
+RuleMesh Compliance Plugin — Proprietary
+
+Copyright (c) 2026 RuleMesh. All rights reserved.
+
+This repository contains configuration and documentation that connect Claude
+to the hosted RuleMesh service. Use of the RuleMesh service is governed by the
+Terms of Service at https://rulemesh.com/terms and the Privacy Policy at
+https://rulemesh.com/privacy.
+
+You may install and use these manifests to connect to the RuleMesh service with
+a valid RuleMesh account. You may not redistribute, resell, or create derivative
+listings of this plugin without written permission from RuleMesh.
+
+For licensing questions: support@rulemesh.com

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "rulemesh-compliance",
+  "displayName": "RuleMesh Compliance",
+  "version": "1.0.0",
+  "description": "Engineered Compliance Infrastructure in your editor. RuleMesh delivers engineered rules for GDPR: what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done. Consumable by engineers and AI agents. Submit evidence signals as you implement.",
+  "author": {
+    "name": "RuleMesh",
+    "email": "support@rulemesh.com",
+    "url": "https://rulemesh.com"
+  },
+  "homepage": "https://rulemesh.com",
+  "repository": "https://github.com/rulemesh/rulemesh-claude-plugin",
+  "license": "LicenseRef-RuleMesh-Commercial",
+  "keywords": [
+    "compliance",
+    "regulatory",
+    "gdpr",
+    "security",
+    "mcp",
+    "evidence",
+    "controls",
+    "audit"
+  ],
+  "mcpServers": "./.mcp.json"
+}
