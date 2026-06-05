@@ -77,6 +77,10 @@ The server uses OAuth 2.1 with PKCE. Claude registers itself, opens a browser lo
 
 GDPR is packaged end to end today. More regulations are in the pipeline. The rule catalog and bundle set grow as regulations move through the engineering process, so treat counts as current state rather than fixed.
 
+## About RuleMesh
+
+RuleMesh is Engineered Compliance Infrastructure — the engineered rule graph that sits between regulation as written and software as built, consumable by engineers, AI agents, and auditors. It defines what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done. → [rulemesh.com](https://rulemesh.com)
+
 ## Links
 
 - Product: https://rulemesh.com
