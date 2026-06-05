@@ -40,6 +40,32 @@ Add to `claude_desktop_config.json`:
 }
 ```
 
+### OpenAI Codex
+
+Codex supports remote MCP servers with OAuth. Add to `~/.codex/config.toml`:
+
+```toml
+[features]
+rmcp_client = true            # enables the remote MCP client (use experimental_use_rmcp_client = true on older Codex)
+
+[mcp_servers.rulemesh]
+url = "https://api.rulemesh.com/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+```
+
+Then authenticate (opens the browser for OAuth — email/password or Google):
+
+```bash
+codex mcp login rulemesh
+```
+
+Run `/mcp` in the Codex TUI to confirm the RuleMesh tools are loaded.
+
+### Other MCP clients
+
+Any client that speaks Streamable HTTP can connect to `https://api.rulemesh.com/mcp`. RuleMesh is published to the [MCP Registry](https://registry.modelcontextprotocol.io) as `com.rulemesh/compliance`.
+
 ## What you get
 
 The server groups its tools around one loop: plan, pull, implement, prove.
