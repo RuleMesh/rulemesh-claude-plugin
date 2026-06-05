@@ -40,31 +40,9 @@ Add to `claude_desktop_config.json`:
 }
 ```
 
-### OpenAI Codex
+### Other clients (Codex, Cursor, VS Code, …)
 
-Codex supports remote MCP servers with OAuth. Add to `~/.codex/config.toml`:
-
-```toml
-[features]
-rmcp_client = true            # enables the remote MCP client (use experimental_use_rmcp_client = true on older Codex)
-
-[mcp_servers.rulemesh]
-url = "https://api.rulemesh.com/mcp"
-startup_timeout_sec = 30
-tool_timeout_sec = 120
-```
-
-Then authenticate (opens the browser for OAuth — email/password or Google):
-
-```bash
-codex mcp login rulemesh
-```
-
-Run `/mcp` in the Codex TUI to confirm the RuleMesh tools are loaded.
-
-### Other MCP clients
-
-Any client that speaks Streamable HTTP can connect to `https://api.rulemesh.com/mcp`. RuleMesh is published to the [MCP Registry](https://registry.modelcontextprotocol.io) as `com.rulemesh/compliance`.
+This repo is the Claude plugin. For the client-agnostic remote MCP server, setup docs for other clients (OpenAI Codex, Cursor, VS Code), and the MCP Registry listing (`com.rulemesh/compliance`), see [RuleMesh/rulemesh-mcp](https://github.com/RuleMesh/rulemesh-mcp).
 
 ## What you get
 
