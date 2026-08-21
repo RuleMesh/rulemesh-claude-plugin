@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "rulemesh",
-  "description": "Official RuleMesh plugins. Engineered Compliance Infrastructure for engineers and AI agents.",
+  "description": "Official RuleMesh plugins. Engineered compliance for every regulated system.",
   "owner": {
     "name": "RuleMesh",
     "email": "support@rulemesh.com",
@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "rulemesh-compliance",
-      "displayName": "RuleMesh Compliance",
-      "description": "Source-traced GDPR and EU AI Act requirements, applicability scoping, implementation checklists, and evidence-signal workflows in your editor. Connects to the hosted RuleMesh server over OAuth; only humans verify.",
+      "displayName": "RuleMesh",
+      "description": "Engineered compliance infrastructure for GDPR and the EU AI Act: source-traced requirements, applicability scoping, implementation checklists, and evidence-signal workflows. Connects Claude to the hosted RuleMesh server over OAuth; only humans verify.",
       "author": {
         "name": "RuleMesh",
         "email": "support@rulemesh.com"
@@ -19,7 +19,7 @@
       "category": "security",
       "source": "./",
       "homepage": "https://rulemesh.com",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "keywords": [
         "compliance",
         "regulatory",

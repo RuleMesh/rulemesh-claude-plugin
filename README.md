@@ -1,8 +1,8 @@
-# RuleMesh Compliance
+# RuleMesh
 
-Engineered Compliance Infrastructure in your editor.
+Engineered compliance for every regulated system.
 
-RuleMesh delivers engineered rules for GDPR and the EU AI Act: what each obligation requires, how to implement it, and what evidence a reviewer will expect. Paid plans also include control mappings. The rules are consumable by engineers and AI agents, served from the hosted RuleMesh server over a remote MCP connection.
+RuleMesh is engineered compliance infrastructure. It delivers rules traced from statutory citation through control and configuration to defensible evidence, in a form engineers, AI agents, and auditors can use. GDPR and the EU AI Act are live today, with access depending on the account's plan. Paid plans also include control mappings. The rules are served from the hosted RuleMesh server over a remote MCP connection.
 
 This plugin connects Claude (Code or Desktop) to that server. You authenticate once in the browser, then your agent can pull rules, implement against them, and submit evidence as it works.
 
@@ -92,7 +92,7 @@ GDPR and the EU AI Act are released today, with access depending on the account'
 
 ## About RuleMesh
 
-RuleMesh is Engineered Compliance Infrastructure — the engineered rule graph that sits between regulation as written and software as built, consumable by engineers, AI agents, and auditors. It defines what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done. → [rulemesh.com](https://rulemesh.com)
+RuleMesh is engineered compliance infrastructure: the rule graph between regulation as written and software as built. It defines what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done — consumable by engineers, AI agents, and auditors. → [rulemesh.com](https://rulemesh.com)
 
 ## Links
 

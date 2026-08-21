@@ -1,9 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "rulemesh-compliance",
-  "displayName": "RuleMesh Compliance",
-  "version": "1.1.0",
-  "description": "Engineered compliance infrastructure for GDPR and the EU AI Act. Retrieve source-traced requirements, scope applicability, build implementation checklists, and submit evidence signals. Only humans verify.",
+  "displayName": "RuleMesh",
+  "version": "1.1.1",
+  "description": "RuleMesh is engineered compliance infrastructure for regulated systems. Retrieve source-traced GDPR and EU AI Act requirements, scope applicability, build implementation checklists, and submit evidence signals. Only humans verify.",
   "author": {
     "name": "RuleMesh",
     "email": "support@rulemesh.com",
