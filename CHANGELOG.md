@@ -1,12 +1,12 @@
 # Changelog
 
-## 1.1.1 — 2026-08-21
+## 1.1.1 (2026-08-21)
 
 - Standardised the public plugin name to RuleMesh across the README and marketplace manifests.
 - Aligned the opening and directory copy with the canonical engineered-compliance messaging.
 - Kept `rulemesh-compliance` unchanged as the technical install identifier for compatibility.
 
-## 1.1.0 — 2026-08-20
+## 1.1.0 (2026-08-20)
 
 - Added direct, RuleMesh-hosted icon guidance for the Anthropic Connectors Directory.
 - Added concrete example prompts for discovery, scoping, planning, implementation, and evidence workflows.

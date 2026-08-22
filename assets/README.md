@@ -2,9 +2,9 @@
 
 Listing icon (the blue mesh mark, no wordmark), sourced from the brand repo `Design/assets`:
 
-- `icon.svg` — vector mark, preferred for the Connectors Directory
-- `icon.png` — 256×256
-- `icon-512.png` — 512×512
+- `icon.svg`: vector mark, preferred for the Connectors Directory
+- `icon.png`: 256×256
+- `icon-512.png`: 512×512
 
 ## Anthropic directory resubmission
 

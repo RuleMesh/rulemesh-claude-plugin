@@ -49,26 +49,26 @@ This repo is the Claude plugin. For the client-agnostic remote MCP server, setup
 The server groups its tools around one loop: plan, pull, implement, prove.
 
 **Discovery and scoping**
-- `list_regulations` — regulations available to your account
-- `list_frameworks` — control frameworks available to your account
-- `lookup_definition` — legal term definitions, anchored to the regulation text
-- `get_compliance_plan` — a prioritised module plan grouped by risk
-- `scope_next_question`, `scope_classify` — determine applicability from the regulation's own criteria
-- `scope_retrieve_source` — retrieve the statutory source behind a scoping result
-- `scope_query_applicable`, `scope_update_profile` — calculate applicable requirements and, when requested, save the organisation's scope profile
+- `list_regulations`: regulations available to your account
+- `list_frameworks`: control frameworks available to your account
+- `lookup_definition`: legal term definitions, anchored to the regulation text
+- `get_compliance_plan`: a prioritised module plan grouped by risk
+- `scope_next_question`, `scope_classify`: determine applicability from the regulation's own criteria
+- `scope_retrieve_source`: retrieve the statutory source behind a scoping result
+- `scope_query_applicable`, `scope_update_profile`: calculate applicable requirements and, when requested, save the organisation's scope profile
 
 **Implement**
-- `pull_rules` — the rules for one module: implementation checklists, expected evidence, and control mappings when the account includes them
-- `scan_compliance` — requirements and evaluation guidance for Claude to apply to the repository
+- `pull_rules`: the rules for one module: implementation checklists, expected evidence, and control mappings when the account includes them
+- `scan_compliance`: requirements and evaluation guidance for Claude to apply to the repository
 
 **Prove**
-- `submit_signals` — record an evidence signal in the authenticated RuleMesh organisation
-- `submit_signals_batch` — record multiple evidence signals in one call
+- `submit_signals`: record an evidence signal in the authenticated RuleMesh organisation
+- `submit_signals_batch`: record multiple evidence signals in one call
 
 **Track**
-- `get_progress` — factual status counts, recent evidence, and recommendations across sessions
-- `get_ticket_status` — Jira-linked ticket status, human verification progress, and evidence
-- `get_scan_sessions`, `start_scan`, `end_scan`, `resume_session` — session lifecycle
+- `get_progress`: factual status counts, recent evidence, and recommendations across sessions
+- `get_ticket_status`: Jira-linked ticket status, human verification progress, and evidence
+- `get_scan_sessions`, `start_scan`, `end_scan`, `resume_session`: session lifecycle
 
 Four prompts package the common workflows: `implement_bundle`, `scan_and_report_bundle`, `review_bundle`, and `plan_compliance`. One resource, `regulation://{id}`, returns full regulation metadata.
 
@@ -88,11 +88,11 @@ The server uses OAuth 2.1 with PKCE. Claude registers itself, opens a browser lo
 
 ## Scope
 
-GDPR and the EU AI Act are released today, with access depending on the account's plan. More regulations are in the pipeline. The rule catalog and module set grow as regulations move through the engineering process, so treat counts as current state rather than fixed.
+GDPR and the EU AI Act are released today, with access depending on the account's plan. More regulations are in the pipeline. The rule catalog and module set grow as regulations move through the engineering process. Treat counts as current state rather than fixed.
 
 ## About RuleMesh
 
-RuleMesh is engineered compliance infrastructure: the rule graph between regulation as written and software as built. It defines what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done — consumable by engineers, AI agents, and auditors. → [rulemesh.com](https://rulemesh.com)
+RuleMesh is engineered compliance infrastructure: the rule graph between regulation as written and software as built. It defines what each obligation requires, how to execute it with framework-specific controls, and what evidence proves it was done, consumable by engineers, AI agents, and auditors. → [rulemesh.com](https://rulemesh.com)
 
 ## Links
 
